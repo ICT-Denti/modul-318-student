@@ -10,13 +10,16 @@ using System.Windows.Forms;
 
 namespace MeineTransoprtApp
 {
-  public partial class Form1 : Form
+  public partial class Verbindungen : Form
   {
-    public Form1()
+    public Verbindungen()
     {
       InitializeComponent();
     }
 
+    private void Verbindungen_Load(object sender, EventArgs e)
+    {
 
+    }
   }
 }
