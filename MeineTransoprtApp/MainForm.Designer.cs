@@ -29,16 +29,16 @@
     private void InitializeComponent()
     {
       this.Suchen_btn = new System.Windows.Forms.Button();
-      this.textBox1 = new System.Windows.Forms.TextBox();
-      this.textBox2 = new System.Windows.Forms.TextBox();
-      this.comboBox1 = new System.Windows.Forms.ComboBox();
-      this.comboBox2 = new System.Windows.Forms.ComboBox();
+      this.Start_txt = new System.Windows.Forms.TextBox();
+      this.End_txt = new System.Windows.Forms.TextBox();
+      this.Start_lbl = new System.Windows.Forms.Label();
+      this.Ankuft_lbl = new System.Windows.Forms.Label();
       this.SuspendLayout();
       // 
       // Suchen_btn
       // 
-      this.Suchen_btn.Location = new System.Drawing.Point(933, 46);
-      this.Suchen_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+      this.Suchen_btn.Location = new System.Drawing.Point(584, 49);
+      this.Suchen_btn.Margin = new System.Windows.Forms.Padding(4);
       this.Suchen_btn.Name = "Suchen_btn";
       this.Suchen_btn.Size = new System.Drawing.Size(100, 28);
       this.Suchen_btn.TabIndex = 0;
@@ -46,52 +46,58 @@
       this.Suchen_btn.UseVisualStyleBackColor = true;
       this.Suchen_btn.Click += new System.EventHandler(this.Suchen_btn_Click);
       // 
-      // textBox1
+      // Start_txt
       // 
-      this.textBox1.Location = new System.Drawing.Point(475, 87);
-      this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-      this.textBox1.Name = "textBox1";
-      this.textBox1.Size = new System.Drawing.Size(132, 22);
-      this.textBox1.TabIndex = 1;
+      this.Start_txt.Location = new System.Drawing.Point(226, 52);
+      this.Start_txt.Margin = new System.Windows.Forms.Padding(4);
+      this.Start_txt.Name = "Start_txt";
+      this.Start_txt.Size = new System.Drawing.Size(132, 22);
+      this.Start_txt.TabIndex = 1;
+      this.Start_txt.AcceptsTabChanged += new System.EventHandler(this.End_txt_TextChanged);
+      this.Start_txt.TextChanged += new System.EventHandler(this.Start_txt_TextChanged);
       // 
-      // textBox2
+      // End_txt
       // 
-      this.textBox2.Location = new System.Drawing.Point(687, 87);
-      this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-      this.textBox2.Name = "textBox2";
-      this.textBox2.Size = new System.Drawing.Size(132, 22);
-      this.textBox2.TabIndex = 2;
+      this.End_txt.Location = new System.Drawing.Point(408, 52);
+      this.End_txt.Margin = new System.Windows.Forms.Padding(4);
+      this.End_txt.Name = "End_txt";
+      this.End_txt.Size = new System.Drawing.Size(132, 22);
+      this.End_txt.TabIndex = 2;
+      this.End_txt.AcceptsTabChanged += new System.EventHandler(this.Suchen_btn_Click);
+      this.End_txt.TextChanged += new System.EventHandler(this.End_txt_TextChanged);
       // 
-      // comboBox1
+      // Start_lbl
       // 
-      this.comboBox1.FormattingEnabled = true;
-      this.comboBox1.Location = new System.Drawing.Point(447, 46);
-      this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-      this.comboBox1.Name = "comboBox1";
-      this.comboBox1.Size = new System.Drawing.Size(160, 24);
-      this.comboBox1.TabIndex = 3;
+      this.Start_lbl.AutoSize = true;
+      this.Start_lbl.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.Start_lbl.Location = new System.Drawing.Point(222, 9);
+      this.Start_lbl.Name = "Start_lbl";
+      this.Start_lbl.Size = new System.Drawing.Size(62, 19);
+      this.Start_lbl.TabIndex = 3;
+      this.Start_lbl.Text = "Abfahrt";
       // 
-      // comboBox2
+      // Ankuft_lbl
       // 
-      this.comboBox2.FormattingEnabled = true;
-      this.comboBox2.Location = new System.Drawing.Point(687, 46);
-      this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-      this.comboBox2.Name = "comboBox2";
-      this.comboBox2.Size = new System.Drawing.Size(160, 24);
-      this.comboBox2.TabIndex = 4;
+      this.Ankuft_lbl.AutoSize = true;
+      this.Ankuft_lbl.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.Ankuft_lbl.Location = new System.Drawing.Point(404, 9);
+      this.Ankuft_lbl.Name = "Ankuft_lbl";
+      this.Ankuft_lbl.Size = new System.Drawing.Size(55, 19);
+      this.Ankuft_lbl.TabIndex = 3;
+      this.Ankuft_lbl.Text = "Ankuft";
       // 
-      // Form1
+      // MainForm
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(1067, 554);
-      this.Controls.Add(this.comboBox2);
-      this.Controls.Add(this.comboBox1);
-      this.Controls.Add(this.textBox2);
-      this.Controls.Add(this.textBox1);
+      this.ClientSize = new System.Drawing.Size(729, 554);
+      this.Controls.Add(this.Ankuft_lbl);
+      this.Controls.Add(this.Start_lbl);
+      this.Controls.Add(this.End_txt);
+      this.Controls.Add(this.Start_txt);
       this.Controls.Add(this.Suchen_btn);
-      this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-      this.Name = "Form1";
+      this.Margin = new System.Windows.Forms.Padding(4);
+      this.Name = "MainForm";
       this.Text = "SSV Applikation";
       this.ResumeLayout(false);
       this.PerformLayout();
@@ -101,10 +107,10 @@
     #endregion
 
     private System.Windows.Forms.Button Suchen_btn;
-    private System.Windows.Forms.TextBox textBox1;
-    private System.Windows.Forms.TextBox textBox2;
-    private System.Windows.Forms.ComboBox comboBox1;
-    private System.Windows.Forms.ComboBox comboBox2;
+    private System.Windows.Forms.TextBox Start_txt;
+    private System.Windows.Forms.TextBox End_txt;
+    private System.Windows.Forms.Label Start_lbl;
+    private System.Windows.Forms.Label Ankuft_lbl;
   }
 }
 

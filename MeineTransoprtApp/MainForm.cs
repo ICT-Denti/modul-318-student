@@ -7,6 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SwissTransport;
+
+// Autor: Alexander Denti 
+// Bearbeitung: 01.12.2020
+
 
 namespace MeineTransoprtApp
 {
@@ -16,11 +21,46 @@ namespace MeineTransoprtApp
     {
       InitializeComponent();
     }
+    // Schritt 1
+    /* Eingabe von Start und Endstation ermöglicht den Button zu drücken,
+       es darf aber nicht vorher möglich sein. Fehlermeldung vielleicht mit rein? */
 
+    // Schritt 2
+    /* Start und Endstation werden abgeglichen und 
+       es werden auf dem nexten Fenster die Verbindungen dazu gezeigt. */
+
+    // Membervariabeln
+    List<Station> Stationname = new List<Station>();
     private void Suchen_btn_Click(object sender, EventArgs e)
     {
+      // Zuerst Text von txt Start in eine variable speichern
+      string Start = Start_txt.Text;
+      // Zweitens Text von txt End in eine variable speichern
+      string End = End_txt.Text;
+      // Transpoort klassse instanzieren in ITransport
+      ITransport t = new Transport();
+      // Getconation aufrufen von der ITransport Klasse und in eine variable speichern
+      Connections a = t.GetConnections(Start, End);
+      // Nun die Variable dem neuen Fenster Verbindungen mitschicken
       Verbindungen v = new Verbindungen();
+      v.Gesucht = a;
       v.ShowDialog();
+
     }
+
+    // Variabeln
+
+  
+    private void End_txt_TextChanged(object sender, EventArgs e)
+    {
+      
+
+    }
+
+    private void Start_txt_TextChanged(object sender, EventArgs e)
+    {
+    
+    }
+
   }
 }

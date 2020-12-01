@@ -28,9 +28,13 @@ namespace SwissTransport
         [TestMethod]
         public void Connections()
         {
+            // Arrange
             testee = new Transport();
-            var connections = testee.GetConnections("Sursee", "Luzern");
 
+            // Act
+            var connections = testee.GetConnections("Sursee", "Luzern");
+            
+            // Assert
             Assert.IsNotNull(connections);
         }
     }

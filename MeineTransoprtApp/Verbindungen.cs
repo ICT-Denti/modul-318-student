@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SwissTransport;
 
 namespace MeineTransoprtApp
 {
@@ -16,8 +17,13 @@ namespace MeineTransoprtApp
     {
       InitializeComponent();
     }
-
+    public Connections Gesucht { get; set; }
     private void Verbindungen_Load(object sender, EventArgs e)
+    {
+
+    }
+
+    private void station1_txt_TextChanged(object sender, EventArgs e)
     {
 
     }
