@@ -29,10 +29,9 @@ namespace MeineTransoprtApp
     /* Start und Endstation werden abgeglichen und 
        es werden auf dem nexten Fenster die Verbindungen dazu gezeigt. */
 
-    // Membervariabeln
-    List<Station> Stationname = new List<Station>();
     private void Suchen_btn_Click(object sender, EventArgs e)
     {
+      // Variabeln
       // Zuerst Text von txt Start in eine variable speichern
       string Start = Start_txt.Text;
 
@@ -43,29 +42,15 @@ namespace MeineTransoprtApp
       ITransport t = new Transport();
 
       // Getconation aufrufen von der ITransport Klasse und in eine variable speichern
-      Connections a = t.GetConnections(Start, End);
-      StationBoardRoot b = t.GetStationBoard(Start, "");
+      Connections c = t.GetConnections(Start, End);
+      StationBoardRoot s = t.GetStationBoard(Start, "");
 
       // Nun werden den Variable dem neuen Fenster Verbindungen mitschicken
       Verbindungen v = new Verbindungen();
-      v.Gesucht = a;
-      v.Lulu = b;
+      v.Gesucht = c;
+      v.Tafel = s;
+      // Hier wird das neue Fenster aufgerufen
       v.ShowDialog();
     }
-
-    // Variabeln
-
-  
-    private void End_txt_TextChanged(object sender, EventArgs e)
-    {
-      
-
-    }
-
-    private void Start_txt_TextChanged(object sender, EventArgs e)
-    {
-    
-    }
-
   }
 }

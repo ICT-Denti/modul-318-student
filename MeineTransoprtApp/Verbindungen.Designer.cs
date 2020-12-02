@@ -36,48 +36,55 @@
       this.gleis_lbl = new System.Windows.Forms.Label();
       this.gleis1_txt = new System.Windows.Forms.TextBox();
       this.tafel1_txt = new System.Windows.Forms.TextBox();
-      this.tafel2_txt = new System.Windows.Forms.TextBox();
+      this.tafelzeit1_txt = new System.Windows.Forms.TextBox();
       this.tafel_grp = new System.Windows.Forms.GroupBox();
-      this.textBox7 = new System.Windows.Forms.TextBox();
-      this.textBox6 = new System.Windows.Forms.TextBox();
-      this.textBox5 = new System.Windows.Forms.TextBox();
-      this.textBox4 = new System.Windows.Forms.TextBox();
-      this.textBox3 = new System.Windows.Forms.TextBox();
-      this.textBox2 = new System.Windows.Forms.TextBox();
-      this.textBox1 = new System.Windows.Forms.TextBox();
-      this.tafelzeit_grp = new System.Windows.Forms.GroupBox();
-      this.tafelzeit_lbl = new System.Windows.Forms.Label();
       this.tafel_lbl = new System.Windows.Forms.Label();
+      this.tafel8_txt = new System.Windows.Forms.TextBox();
+      this.tafel7_txt = new System.Windows.Forms.TextBox();
+      this.tafel6_txt = new System.Windows.Forms.TextBox();
+      this.tafel5_txt = new System.Windows.Forms.TextBox();
+      this.tafel4_txt = new System.Windows.Forms.TextBox();
+      this.tafel3_txt = new System.Windows.Forms.TextBox();
+      this.tafel2_txt = new System.Windows.Forms.TextBox();
+      this.tafelzeit_lbl = new System.Windows.Forms.Label();
       this.dauer_lbl = new System.Windows.Forms.Label();
       this.ankuft_lbl = new System.Windows.Forms.Label();
       this.zeit_lbl = new System.Windows.Forms.Label();
       this.abfahrt_grp = new System.Windows.Forms.GroupBox();
-      this.textBox8 = new System.Windows.Forms.TextBox();
-      this.textBox9 = new System.Windows.Forms.TextBox();
-      this.textBox10 = new System.Windows.Forms.TextBox();
-      this.textBox11 = new System.Windows.Forms.TextBox();
+      this.station2_txt = new System.Windows.Forms.TextBox();
+      this.station4_txt = new System.Windows.Forms.TextBox();
+      this.station3_txt = new System.Windows.Forms.TextBox();
+      this.station1_txt = new System.Windows.Forms.TextBox();
       this.zeit_grp = new System.Windows.Forms.GroupBox();
-      this.textBox12 = new System.Windows.Forms.TextBox();
-      this.textBox13 = new System.Windows.Forms.TextBox();
-      this.textBox14 = new System.Windows.Forms.TextBox();
-      this.textBox15 = new System.Windows.Forms.TextBox();
+      this.zeit2_txt = new System.Windows.Forms.TextBox();
+      this.zeit4_txt = new System.Windows.Forms.TextBox();
+      this.zeit3_txt = new System.Windows.Forms.TextBox();
+      this.zeit1_txt = new System.Windows.Forms.TextBox();
       this.ankuft_grp = new System.Windows.Forms.GroupBox();
-      this.textBox16 = new System.Windows.Forms.TextBox();
-      this.textBox17 = new System.Windows.Forms.TextBox();
-      this.textBox18 = new System.Windows.Forms.TextBox();
-      this.textBox19 = new System.Windows.Forms.TextBox();
+      this.ankuft2_txt = new System.Windows.Forms.TextBox();
+      this.ankuft4_txt = new System.Windows.Forms.TextBox();
+      this.ankuft3_txt = new System.Windows.Forms.TextBox();
+      this.ankuft1_txt = new System.Windows.Forms.TextBox();
       this.dauer_grp = new System.Windows.Forms.GroupBox();
-      this.textBox20 = new System.Windows.Forms.TextBox();
-      this.textBox21 = new System.Windows.Forms.TextBox();
-      this.textBox22 = new System.Windows.Forms.TextBox();
-      this.textBox23 = new System.Windows.Forms.TextBox();
+      this.dauer2_txt = new System.Windows.Forms.TextBox();
+      this.dauer4_txt = new System.Windows.Forms.TextBox();
+      this.dauer3_txt = new System.Windows.Forms.TextBox();
+      this.dauer1_txt = new System.Windows.Forms.TextBox();
+      this.groupBox1 = new System.Windows.Forms.GroupBox();
+      this.tafelzeit8_txt = new System.Windows.Forms.TextBox();
+      this.tafelzeit7_txt = new System.Windows.Forms.TextBox();
+      this.tafelzeit6_txt = new System.Windows.Forms.TextBox();
+      this.tafelzeit5_txt = new System.Windows.Forms.TextBox();
+      this.tafelzeit4_txt = new System.Windows.Forms.TextBox();
+      this.tafelzeit3_txt = new System.Windows.Forms.TextBox();
+      this.tafelzeit2_txt = new System.Windows.Forms.TextBox();
       this.gleis_grp.SuspendLayout();
       this.tafel_grp.SuspendLayout();
-      this.tafelzeit_grp.SuspendLayout();
       this.abfahrt_grp.SuspendLayout();
       this.zeit_grp.SuspendLayout();
       this.ankuft_grp.SuspendLayout();
       this.dauer_grp.SuspendLayout();
+      this.groupBox1.SuspendLayout();
       this.SuspendLayout();
       // 
       // abfahrt_lbl
@@ -92,14 +99,14 @@
       // gleis_grp
       // 
       this.gleis_grp.Anchor = System.Windows.Forms.AnchorStyles.None;
-      this.gleis_grp.BackColor = System.Drawing.Color.Snow;
+      this.gleis_grp.BackColor = System.Drawing.Color.Azure;
       this.gleis_grp.Controls.Add(this.gleis2_txt);
       this.gleis_grp.Controls.Add(this.gleis4_txt);
       this.gleis_grp.Controls.Add(this.gleis3_txt);
       this.gleis_grp.Controls.Add(this.gleis_lbl);
       this.gleis_grp.Controls.Add(this.gleis1_txt);
       this.gleis_grp.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.gleis_grp.Location = new System.Drawing.Point(262, 29);
+      this.gleis_grp.Location = new System.Drawing.Point(172, 270);
       this.gleis_grp.Margin = new System.Windows.Forms.Padding(1);
       this.gleis_grp.Name = "gleis_grp";
       this.gleis_grp.Padding = new System.Windows.Forms.Padding(1);
@@ -137,7 +144,7 @@
       // gleis_lbl
       // 
       this.gleis_lbl.AutoSize = true;
-      this.gleis_lbl.BackColor = System.Drawing.Color.Snow;
+      this.gleis_lbl.BackColor = System.Drawing.Color.Azure;
       this.gleis_lbl.Location = new System.Drawing.Point(4, 14);
       this.gleis_lbl.Name = "gleis_lbl";
       this.gleis_lbl.Size = new System.Drawing.Size(57, 22);
@@ -155,117 +162,108 @@
       // 
       // tafel1_txt
       // 
-      this.tafel1_txt.Location = new System.Drawing.Point(23, 23);
+      this.tafel1_txt.Location = new System.Drawing.Point(8, 36);
       this.tafel1_txt.Name = "tafel1_txt";
-      this.tafel1_txt.Size = new System.Drawing.Size(117, 26);
+      this.tafel1_txt.Size = new System.Drawing.Size(148, 26);
       this.tafel1_txt.TabIndex = 7;
       // 
-      // tafel2_txt
+      // tafelzeit1_txt
       // 
-      this.tafel2_txt.Location = new System.Drawing.Point(26, 37);
-      this.tafel2_txt.Name = "tafel2_txt";
-      this.tafel2_txt.Size = new System.Drawing.Size(100, 26);
-      this.tafel2_txt.TabIndex = 7;
+      this.tafelzeit1_txt.Location = new System.Drawing.Point(8, 36);
+      this.tafelzeit1_txt.Name = "tafelzeit1_txt";
+      this.tafelzeit1_txt.Size = new System.Drawing.Size(148, 26);
+      this.tafelzeit1_txt.TabIndex = 7;
       // 
       // tafel_grp
       // 
       this.tafel_grp.Anchor = System.Windows.Forms.AnchorStyles.None;
-      this.tafel_grp.Controls.Add(this.textBox7);
-      this.tafel_grp.Controls.Add(this.textBox6);
-      this.tafel_grp.Controls.Add(this.textBox5);
-      this.tafel_grp.Controls.Add(this.textBox4);
-      this.tafel_grp.Controls.Add(this.textBox3);
-      this.tafel_grp.Controls.Add(this.textBox2);
-      this.tafel_grp.Controls.Add(this.textBox1);
+      this.tafel_grp.BackColor = System.Drawing.Color.OrangeRed;
+      this.tafel_grp.Controls.Add(this.tafel_lbl);
+      this.tafel_grp.Controls.Add(this.tafel8_txt);
+      this.tafel_grp.Controls.Add(this.tafel7_txt);
+      this.tafel_grp.Controls.Add(this.tafel6_txt);
+      this.tafel_grp.Controls.Add(this.tafel5_txt);
+      this.tafel_grp.Controls.Add(this.tafel4_txt);
+      this.tafel_grp.Controls.Add(this.tafel3_txt);
+      this.tafel_grp.Controls.Add(this.tafel2_txt);
       this.tafel_grp.Controls.Add(this.tafel1_txt);
       this.tafel_grp.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.tafel_grp.Location = new System.Drawing.Point(923, 318);
+      this.tafel_grp.Location = new System.Drawing.Point(976, 145);
       this.tafel_grp.Margin = new System.Windows.Forms.Padding(1);
       this.tafel_grp.Name = "tafel_grp";
       this.tafel_grp.Padding = new System.Windows.Forms.Padding(1);
-      this.tafel_grp.Size = new System.Drawing.Size(163, 356);
+      this.tafel_grp.Size = new System.Drawing.Size(163, 299);
       this.tafel_grp.TabIndex = 8;
       this.tafel_grp.TabStop = false;
-      // 
-      // textBox7
-      // 
-      this.textBox7.Location = new System.Drawing.Point(23, 308);
-      this.textBox7.Name = "textBox7";
-      this.textBox7.Size = new System.Drawing.Size(100, 26);
-      this.textBox7.TabIndex = 7;
-      // 
-      // textBox6
-      // 
-      this.textBox6.Location = new System.Drawing.Point(23, 266);
-      this.textBox6.Name = "textBox6";
-      this.textBox6.Size = new System.Drawing.Size(100, 26);
-      this.textBox6.TabIndex = 7;
-      // 
-      // textBox5
-      // 
-      this.textBox5.Location = new System.Drawing.Point(23, 224);
-      this.textBox5.Name = "textBox5";
-      this.textBox5.Size = new System.Drawing.Size(117, 26);
-      this.textBox5.TabIndex = 7;
-      // 
-      // textBox4
-      // 
-      this.textBox4.Location = new System.Drawing.Point(23, 182);
-      this.textBox4.Name = "textBox4";
-      this.textBox4.Size = new System.Drawing.Size(117, 26);
-      this.textBox4.TabIndex = 7;
-      // 
-      // textBox3
-      // 
-      this.textBox3.Location = new System.Drawing.Point(23, 141);
-      this.textBox3.Name = "textBox3";
-      this.textBox3.Size = new System.Drawing.Size(117, 26);
-      this.textBox3.TabIndex = 7;
-      // 
-      // textBox2
-      // 
-      this.textBox2.Location = new System.Drawing.Point(23, 102);
-      this.textBox2.Name = "textBox2";
-      this.textBox2.Size = new System.Drawing.Size(117, 26);
-      this.textBox2.TabIndex = 7;
-      // 
-      // textBox1
-      // 
-      this.textBox1.Location = new System.Drawing.Point(23, 63);
-      this.textBox1.Name = "textBox1";
-      this.textBox1.Size = new System.Drawing.Size(117, 26);
-      this.textBox1.TabIndex = 7;
-      // 
-      // tafelzeit_grp
-      // 
-      this.tafelzeit_grp.Anchor = System.Windows.Forms.AnchorStyles.None;
-      this.tafelzeit_grp.Controls.Add(this.tafel2_txt);
-      this.tafelzeit_grp.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.tafelzeit_grp.Location = new System.Drawing.Point(1386, 408);
-      this.tafelzeit_grp.Margin = new System.Windows.Forms.Padding(2);
-      this.tafelzeit_grp.Name = "tafelzeit_grp";
-      this.tafelzeit_grp.Padding = new System.Windows.Forms.Padding(2);
-      this.tafelzeit_grp.Size = new System.Drawing.Size(163, 416);
-      this.tafelzeit_grp.TabIndex = 9;
-      this.tafelzeit_grp.TabStop = false;
-      // 
-      // tafelzeit_lbl
-      // 
-      this.tafelzeit_lbl.AutoSize = true;
-      this.tafelzeit_lbl.Location = new System.Drawing.Point(74, 546);
-      this.tafelzeit_lbl.Name = "tafelzeit_lbl";
-      this.tafelzeit_lbl.Size = new System.Drawing.Size(59, 13);
-      this.tafelzeit_lbl.TabIndex = 10;
-      this.tafelzeit_lbl.Text = "Abfahrszeit";
       // 
       // tafel_lbl
       // 
       this.tafel_lbl.AutoSize = true;
-      this.tafel_lbl.Location = new System.Drawing.Point(166, 577);
+      this.tafel_lbl.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.tafel_lbl.Location = new System.Drawing.Point(4, 11);
       this.tafel_lbl.Name = "tafel_lbl";
-      this.tafel_lbl.Size = new System.Drawing.Size(77, 13);
+      this.tafel_lbl.Size = new System.Drawing.Size(152, 22);
       this.tafel_lbl.TabIndex = 10;
       this.tafel_lbl.Text = "Abfahrtsstation";
+      // 
+      // tafel8_txt
+      // 
+      this.tafel8_txt.Location = new System.Drawing.Point(8, 260);
+      this.tafel8_txt.Name = "tafel8_txt";
+      this.tafel8_txt.Size = new System.Drawing.Size(148, 26);
+      this.tafel8_txt.TabIndex = 7;
+      // 
+      // tafel7_txt
+      // 
+      this.tafel7_txt.Location = new System.Drawing.Point(8, 228);
+      this.tafel7_txt.Name = "tafel7_txt";
+      this.tafel7_txt.Size = new System.Drawing.Size(148, 26);
+      this.tafel7_txt.TabIndex = 7;
+      // 
+      // tafel6_txt
+      // 
+      this.tafel6_txt.Location = new System.Drawing.Point(8, 196);
+      this.tafel6_txt.Name = "tafel6_txt";
+      this.tafel6_txt.Size = new System.Drawing.Size(148, 26);
+      this.tafel6_txt.TabIndex = 7;
+      // 
+      // tafel5_txt
+      // 
+      this.tafel5_txt.Location = new System.Drawing.Point(8, 164);
+      this.tafel5_txt.Name = "tafel5_txt";
+      this.tafel5_txt.Size = new System.Drawing.Size(148, 26);
+      this.tafel5_txt.TabIndex = 7;
+      // 
+      // tafel4_txt
+      // 
+      this.tafel4_txt.Location = new System.Drawing.Point(8, 132);
+      this.tafel4_txt.Name = "tafel4_txt";
+      this.tafel4_txt.Size = new System.Drawing.Size(148, 26);
+      this.tafel4_txt.TabIndex = 7;
+      // 
+      // tafel3_txt
+      // 
+      this.tafel3_txt.Location = new System.Drawing.Point(8, 100);
+      this.tafel3_txt.Name = "tafel3_txt";
+      this.tafel3_txt.Size = new System.Drawing.Size(148, 26);
+      this.tafel3_txt.TabIndex = 7;
+      // 
+      // tafel2_txt
+      // 
+      this.tafel2_txt.Location = new System.Drawing.Point(8, 68);
+      this.tafel2_txt.Name = "tafel2_txt";
+      this.tafel2_txt.Size = new System.Drawing.Size(148, 26);
+      this.tafel2_txt.TabIndex = 7;
+      // 
+      // tafelzeit_lbl
+      // 
+      this.tafelzeit_lbl.AutoSize = true;
+      this.tafelzeit_lbl.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.tafelzeit_lbl.Location = new System.Drawing.Point(4, 11);
+      this.tafelzeit_lbl.Name = "tafelzeit_lbl";
+      this.tafelzeit_lbl.Size = new System.Drawing.Size(115, 22);
+      this.tafelzeit_lbl.TabIndex = 10;
+      this.tafelzeit_lbl.Text = "Abfahrszeit";
       // 
       // dauer_lbl
       // 
@@ -298,13 +296,13 @@
       // 
       this.abfahrt_grp.Anchor = System.Windows.Forms.AnchorStyles.None;
       this.abfahrt_grp.BackColor = System.Drawing.Color.OrangeRed;
-      this.abfahrt_grp.Controls.Add(this.textBox8);
-      this.abfahrt_grp.Controls.Add(this.textBox9);
-      this.abfahrt_grp.Controls.Add(this.textBox10);
-      this.abfahrt_grp.Controls.Add(this.textBox11);
+      this.abfahrt_grp.Controls.Add(this.station2_txt);
+      this.abfahrt_grp.Controls.Add(this.station4_txt);
+      this.abfahrt_grp.Controls.Add(this.station3_txt);
+      this.abfahrt_grp.Controls.Add(this.station1_txt);
       this.abfahrt_grp.Controls.Add(this.abfahrt_lbl);
       this.abfahrt_grp.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.abfahrt_grp.Location = new System.Drawing.Point(97, 29);
+      this.abfahrt_grp.Location = new System.Drawing.Point(7, 270);
       this.abfahrt_grp.Margin = new System.Windows.Forms.Padding(1);
       this.abfahrt_grp.Name = "abfahrt_grp";
       this.abfahrt_grp.Padding = new System.Windows.Forms.Padding(1);
@@ -312,53 +310,53 @@
       this.abfahrt_grp.TabIndex = 11;
       this.abfahrt_grp.TabStop = false;
       // 
-      // textBox8
+      // station2_txt
       // 
-      this.textBox8.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.textBox8.Location = new System.Drawing.Point(3, 70);
-      this.textBox8.Margin = new System.Windows.Forms.Padding(2);
-      this.textBox8.Name = "textBox8";
-      this.textBox8.Size = new System.Drawing.Size(155, 26);
-      this.textBox8.TabIndex = 4;
+      this.station2_txt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.station2_txt.Location = new System.Drawing.Point(3, 70);
+      this.station2_txt.Margin = new System.Windows.Forms.Padding(2);
+      this.station2_txt.Name = "station2_txt";
+      this.station2_txt.Size = new System.Drawing.Size(155, 26);
+      this.station2_txt.TabIndex = 4;
       // 
-      // textBox9
+      // station4_txt
       // 
-      this.textBox9.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.textBox9.Location = new System.Drawing.Point(3, 130);
-      this.textBox9.Margin = new System.Windows.Forms.Padding(2);
-      this.textBox9.Name = "textBox9";
-      this.textBox9.Size = new System.Drawing.Size(155, 26);
-      this.textBox9.TabIndex = 3;
+      this.station4_txt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.station4_txt.Location = new System.Drawing.Point(3, 130);
+      this.station4_txt.Margin = new System.Windows.Forms.Padding(2);
+      this.station4_txt.Name = "station4_txt";
+      this.station4_txt.Size = new System.Drawing.Size(155, 26);
+      this.station4_txt.TabIndex = 3;
       // 
-      // textBox10
+      // station3_txt
       // 
-      this.textBox10.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.textBox10.Location = new System.Drawing.Point(3, 100);
-      this.textBox10.Margin = new System.Windows.Forms.Padding(2);
-      this.textBox10.Name = "textBox10";
-      this.textBox10.Size = new System.Drawing.Size(155, 26);
-      this.textBox10.TabIndex = 2;
+      this.station3_txt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.station3_txt.Location = new System.Drawing.Point(3, 100);
+      this.station3_txt.Margin = new System.Windows.Forms.Padding(2);
+      this.station3_txt.Name = "station3_txt";
+      this.station3_txt.Size = new System.Drawing.Size(155, 26);
+      this.station3_txt.TabIndex = 2;
       // 
-      // textBox11
+      // station1_txt
       // 
-      this.textBox11.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.textBox11.Location = new System.Drawing.Point(3, 40);
-      this.textBox11.Margin = new System.Windows.Forms.Padding(2);
-      this.textBox11.Name = "textBox11";
-      this.textBox11.Size = new System.Drawing.Size(155, 26);
-      this.textBox11.TabIndex = 1;
+      this.station1_txt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.station1_txt.Location = new System.Drawing.Point(3, 40);
+      this.station1_txt.Margin = new System.Windows.Forms.Padding(2);
+      this.station1_txt.Name = "station1_txt";
+      this.station1_txt.Size = new System.Drawing.Size(155, 26);
+      this.station1_txt.TabIndex = 1;
       // 
       // zeit_grp
       // 
       this.zeit_grp.Anchor = System.Windows.Forms.AnchorStyles.None;
       this.zeit_grp.BackColor = System.Drawing.Color.Gold;
-      this.zeit_grp.Controls.Add(this.textBox12);
-      this.zeit_grp.Controls.Add(this.textBox13);
-      this.zeit_grp.Controls.Add(this.textBox14);
-      this.zeit_grp.Controls.Add(this.textBox15);
+      this.zeit_grp.Controls.Add(this.zeit2_txt);
+      this.zeit_grp.Controls.Add(this.zeit4_txt);
+      this.zeit_grp.Controls.Add(this.zeit3_txt);
+      this.zeit_grp.Controls.Add(this.zeit1_txt);
       this.zeit_grp.Controls.Add(this.zeit_lbl);
       this.zeit_grp.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.zeit_grp.Location = new System.Drawing.Point(427, 29);
+      this.zeit_grp.Location = new System.Drawing.Point(337, 270);
       this.zeit_grp.Margin = new System.Windows.Forms.Padding(1);
       this.zeit_grp.Name = "zeit_grp";
       this.zeit_grp.Padding = new System.Windows.Forms.Padding(1);
@@ -366,53 +364,53 @@
       this.zeit_grp.TabIndex = 12;
       this.zeit_grp.TabStop = false;
       // 
-      // textBox12
+      // zeit2_txt
       // 
-      this.textBox12.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.textBox12.Location = new System.Drawing.Point(3, 70);
-      this.textBox12.Margin = new System.Windows.Forms.Padding(2);
-      this.textBox12.Name = "textBox12";
-      this.textBox12.Size = new System.Drawing.Size(155, 26);
-      this.textBox12.TabIndex = 4;
+      this.zeit2_txt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.zeit2_txt.Location = new System.Drawing.Point(3, 70);
+      this.zeit2_txt.Margin = new System.Windows.Forms.Padding(2);
+      this.zeit2_txt.Name = "zeit2_txt";
+      this.zeit2_txt.Size = new System.Drawing.Size(155, 26);
+      this.zeit2_txt.TabIndex = 4;
       // 
-      // textBox13
+      // zeit4_txt
       // 
-      this.textBox13.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.textBox13.Location = new System.Drawing.Point(3, 130);
-      this.textBox13.Margin = new System.Windows.Forms.Padding(2);
-      this.textBox13.Name = "textBox13";
-      this.textBox13.Size = new System.Drawing.Size(155, 26);
-      this.textBox13.TabIndex = 3;
+      this.zeit4_txt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.zeit4_txt.Location = new System.Drawing.Point(3, 130);
+      this.zeit4_txt.Margin = new System.Windows.Forms.Padding(2);
+      this.zeit4_txt.Name = "zeit4_txt";
+      this.zeit4_txt.Size = new System.Drawing.Size(155, 26);
+      this.zeit4_txt.TabIndex = 3;
       // 
-      // textBox14
+      // zeit3_txt
       // 
-      this.textBox14.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.textBox14.Location = new System.Drawing.Point(3, 100);
-      this.textBox14.Margin = new System.Windows.Forms.Padding(2);
-      this.textBox14.Name = "textBox14";
-      this.textBox14.Size = new System.Drawing.Size(155, 26);
-      this.textBox14.TabIndex = 2;
+      this.zeit3_txt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.zeit3_txt.Location = new System.Drawing.Point(3, 100);
+      this.zeit3_txt.Margin = new System.Windows.Forms.Padding(2);
+      this.zeit3_txt.Name = "zeit3_txt";
+      this.zeit3_txt.Size = new System.Drawing.Size(155, 26);
+      this.zeit3_txt.TabIndex = 2;
       // 
-      // textBox15
+      // zeit1_txt
       // 
-      this.textBox15.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.textBox15.Location = new System.Drawing.Point(3, 40);
-      this.textBox15.Margin = new System.Windows.Forms.Padding(2);
-      this.textBox15.Name = "textBox15";
-      this.textBox15.Size = new System.Drawing.Size(155, 26);
-      this.textBox15.TabIndex = 1;
+      this.zeit1_txt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.zeit1_txt.Location = new System.Drawing.Point(3, 40);
+      this.zeit1_txt.Margin = new System.Windows.Forms.Padding(2);
+      this.zeit1_txt.Name = "zeit1_txt";
+      this.zeit1_txt.Size = new System.Drawing.Size(155, 26);
+      this.zeit1_txt.TabIndex = 1;
       // 
       // ankuft_grp
       // 
       this.ankuft_grp.Anchor = System.Windows.Forms.AnchorStyles.None;
       this.ankuft_grp.BackColor = System.Drawing.Color.DodgerBlue;
-      this.ankuft_grp.Controls.Add(this.textBox16);
-      this.ankuft_grp.Controls.Add(this.textBox17);
-      this.ankuft_grp.Controls.Add(this.textBox18);
-      this.ankuft_grp.Controls.Add(this.textBox19);
+      this.ankuft_grp.Controls.Add(this.ankuft2_txt);
+      this.ankuft_grp.Controls.Add(this.ankuft4_txt);
+      this.ankuft_grp.Controls.Add(this.ankuft3_txt);
+      this.ankuft_grp.Controls.Add(this.ankuft1_txt);
       this.ankuft_grp.Controls.Add(this.ankuft_lbl);
       this.ankuft_grp.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.ankuft_grp.Location = new System.Drawing.Point(592, 29);
+      this.ankuft_grp.Location = new System.Drawing.Point(502, 270);
       this.ankuft_grp.Margin = new System.Windows.Forms.Padding(1);
       this.ankuft_grp.Name = "ankuft_grp";
       this.ankuft_grp.Padding = new System.Windows.Forms.Padding(1);
@@ -420,53 +418,53 @@
       this.ankuft_grp.TabIndex = 13;
       this.ankuft_grp.TabStop = false;
       // 
-      // textBox16
+      // ankuft2_txt
       // 
-      this.textBox16.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.textBox16.Location = new System.Drawing.Point(3, 70);
-      this.textBox16.Margin = new System.Windows.Forms.Padding(2);
-      this.textBox16.Name = "textBox16";
-      this.textBox16.Size = new System.Drawing.Size(155, 26);
-      this.textBox16.TabIndex = 4;
+      this.ankuft2_txt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.ankuft2_txt.Location = new System.Drawing.Point(3, 70);
+      this.ankuft2_txt.Margin = new System.Windows.Forms.Padding(2);
+      this.ankuft2_txt.Name = "ankuft2_txt";
+      this.ankuft2_txt.Size = new System.Drawing.Size(155, 26);
+      this.ankuft2_txt.TabIndex = 4;
       // 
-      // textBox17
+      // ankuft4_txt
       // 
-      this.textBox17.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.textBox17.Location = new System.Drawing.Point(3, 130);
-      this.textBox17.Margin = new System.Windows.Forms.Padding(2);
-      this.textBox17.Name = "textBox17";
-      this.textBox17.Size = new System.Drawing.Size(155, 26);
-      this.textBox17.TabIndex = 3;
+      this.ankuft4_txt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.ankuft4_txt.Location = new System.Drawing.Point(3, 130);
+      this.ankuft4_txt.Margin = new System.Windows.Forms.Padding(2);
+      this.ankuft4_txt.Name = "ankuft4_txt";
+      this.ankuft4_txt.Size = new System.Drawing.Size(155, 26);
+      this.ankuft4_txt.TabIndex = 3;
       // 
-      // textBox18
+      // ankuft3_txt
       // 
-      this.textBox18.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.textBox18.Location = new System.Drawing.Point(3, 100);
-      this.textBox18.Margin = new System.Windows.Forms.Padding(2);
-      this.textBox18.Name = "textBox18";
-      this.textBox18.Size = new System.Drawing.Size(155, 26);
-      this.textBox18.TabIndex = 2;
+      this.ankuft3_txt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.ankuft3_txt.Location = new System.Drawing.Point(3, 100);
+      this.ankuft3_txt.Margin = new System.Windows.Forms.Padding(2);
+      this.ankuft3_txt.Name = "ankuft3_txt";
+      this.ankuft3_txt.Size = new System.Drawing.Size(155, 26);
+      this.ankuft3_txt.TabIndex = 2;
       // 
-      // textBox19
+      // ankuft1_txt
       // 
-      this.textBox19.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.textBox19.Location = new System.Drawing.Point(3, 40);
-      this.textBox19.Margin = new System.Windows.Forms.Padding(2);
-      this.textBox19.Name = "textBox19";
-      this.textBox19.Size = new System.Drawing.Size(155, 26);
-      this.textBox19.TabIndex = 1;
+      this.ankuft1_txt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.ankuft1_txt.Location = new System.Drawing.Point(3, 40);
+      this.ankuft1_txt.Margin = new System.Windows.Forms.Padding(2);
+      this.ankuft1_txt.Name = "ankuft1_txt";
+      this.ankuft1_txt.Size = new System.Drawing.Size(155, 26);
+      this.ankuft1_txt.TabIndex = 1;
       // 
       // dauer_grp
       // 
       this.dauer_grp.Anchor = System.Windows.Forms.AnchorStyles.None;
       this.dauer_grp.BackColor = System.Drawing.Color.Gold;
-      this.dauer_grp.Controls.Add(this.textBox20);
-      this.dauer_grp.Controls.Add(this.textBox21);
-      this.dauer_grp.Controls.Add(this.textBox22);
-      this.dauer_grp.Controls.Add(this.textBox23);
+      this.dauer_grp.Controls.Add(this.dauer2_txt);
+      this.dauer_grp.Controls.Add(this.dauer4_txt);
+      this.dauer_grp.Controls.Add(this.dauer3_txt);
+      this.dauer_grp.Controls.Add(this.dauer1_txt);
       this.dauer_grp.Controls.Add(this.dauer_lbl);
       this.dauer_grp.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.dauer_grp.Location = new System.Drawing.Point(757, 29);
+      this.dauer_grp.Location = new System.Drawing.Point(667, 270);
       this.dauer_grp.Margin = new System.Windows.Forms.Padding(1);
       this.dauer_grp.Name = "dauer_grp";
       this.dauer_grp.Padding = new System.Windows.Forms.Padding(1);
@@ -474,54 +472,124 @@
       this.dauer_grp.TabIndex = 14;
       this.dauer_grp.TabStop = false;
       // 
-      // textBox20
+      // dauer2_txt
       // 
-      this.textBox20.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.textBox20.Location = new System.Drawing.Point(3, 70);
-      this.textBox20.Margin = new System.Windows.Forms.Padding(2);
-      this.textBox20.Name = "textBox20";
-      this.textBox20.Size = new System.Drawing.Size(155, 26);
-      this.textBox20.TabIndex = 4;
+      this.dauer2_txt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.dauer2_txt.Location = new System.Drawing.Point(3, 70);
+      this.dauer2_txt.Margin = new System.Windows.Forms.Padding(2);
+      this.dauer2_txt.Name = "dauer2_txt";
+      this.dauer2_txt.Size = new System.Drawing.Size(155, 26);
+      this.dauer2_txt.TabIndex = 4;
       // 
-      // textBox21
+      // dauer4_txt
       // 
-      this.textBox21.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.textBox21.Location = new System.Drawing.Point(3, 130);
-      this.textBox21.Margin = new System.Windows.Forms.Padding(2);
-      this.textBox21.Name = "textBox21";
-      this.textBox21.Size = new System.Drawing.Size(155, 26);
-      this.textBox21.TabIndex = 3;
+      this.dauer4_txt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.dauer4_txt.Location = new System.Drawing.Point(3, 130);
+      this.dauer4_txt.Margin = new System.Windows.Forms.Padding(2);
+      this.dauer4_txt.Name = "dauer4_txt";
+      this.dauer4_txt.Size = new System.Drawing.Size(155, 26);
+      this.dauer4_txt.TabIndex = 3;
       // 
-      // textBox22
+      // dauer3_txt
       // 
-      this.textBox22.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.textBox22.Location = new System.Drawing.Point(3, 100);
-      this.textBox22.Margin = new System.Windows.Forms.Padding(2);
-      this.textBox22.Name = "textBox22";
-      this.textBox22.Size = new System.Drawing.Size(155, 26);
-      this.textBox22.TabIndex = 2;
+      this.dauer3_txt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.dauer3_txt.Location = new System.Drawing.Point(3, 100);
+      this.dauer3_txt.Margin = new System.Windows.Forms.Padding(2);
+      this.dauer3_txt.Name = "dauer3_txt";
+      this.dauer3_txt.Size = new System.Drawing.Size(155, 26);
+      this.dauer3_txt.TabIndex = 2;
       // 
-      // textBox23
+      // dauer1_txt
       // 
-      this.textBox23.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.textBox23.Location = new System.Drawing.Point(3, 40);
-      this.textBox23.Margin = new System.Windows.Forms.Padding(2);
-      this.textBox23.Name = "textBox23";
-      this.textBox23.Size = new System.Drawing.Size(155, 26);
-      this.textBox23.TabIndex = 1;
+      this.dauer1_txt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.dauer1_txt.Location = new System.Drawing.Point(3, 40);
+      this.dauer1_txt.Margin = new System.Windows.Forms.Padding(2);
+      this.dauer1_txt.Name = "dauer1_txt";
+      this.dauer1_txt.Size = new System.Drawing.Size(155, 26);
+      this.dauer1_txt.TabIndex = 1;
+      // 
+      // groupBox1
+      // 
+      this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+      this.groupBox1.BackColor = System.Drawing.Color.Gold;
+      this.groupBox1.Controls.Add(this.tafelzeit8_txt);
+      this.groupBox1.Controls.Add(this.tafelzeit1_txt);
+      this.groupBox1.Controls.Add(this.tafelzeit7_txt);
+      this.groupBox1.Controls.Add(this.tafelzeit6_txt);
+      this.groupBox1.Controls.Add(this.tafelzeit5_txt);
+      this.groupBox1.Controls.Add(this.tafelzeit4_txt);
+      this.groupBox1.Controls.Add(this.tafelzeit3_txt);
+      this.groupBox1.Controls.Add(this.tafelzeit_lbl);
+      this.groupBox1.Controls.Add(this.tafelzeit2_txt);
+      this.groupBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.groupBox1.Location = new System.Drawing.Point(1141, 145);
+      this.groupBox1.Margin = new System.Windows.Forms.Padding(1);
+      this.groupBox1.Name = "groupBox1";
+      this.groupBox1.Padding = new System.Windows.Forms.Padding(1);
+      this.groupBox1.Size = new System.Drawing.Size(163, 299);
+      this.groupBox1.TabIndex = 15;
+      this.groupBox1.TabStop = false;
+      // 
+      // tafelzeit8_txt
+      // 
+      this.tafelzeit8_txt.Location = new System.Drawing.Point(8, 260);
+      this.tafelzeit8_txt.Name = "tafelzeit8_txt";
+      this.tafelzeit8_txt.Size = new System.Drawing.Size(148, 26);
+      this.tafelzeit8_txt.TabIndex = 7;
+      // 
+      // tafelzeit7_txt
+      // 
+      this.tafelzeit7_txt.Location = new System.Drawing.Point(8, 228);
+      this.tafelzeit7_txt.Name = "tafelzeit7_txt";
+      this.tafelzeit7_txt.Size = new System.Drawing.Size(148, 26);
+      this.tafelzeit7_txt.TabIndex = 7;
+      // 
+      // tafelzeit6_txt
+      // 
+      this.tafelzeit6_txt.Location = new System.Drawing.Point(8, 196);
+      this.tafelzeit6_txt.Name = "tafelzeit6_txt";
+      this.tafelzeit6_txt.Size = new System.Drawing.Size(148, 26);
+      this.tafelzeit6_txt.TabIndex = 7;
+      // 
+      // tafelzeit5_txt
+      // 
+      this.tafelzeit5_txt.Location = new System.Drawing.Point(8, 164);
+      this.tafelzeit5_txt.Name = "tafelzeit5_txt";
+      this.tafelzeit5_txt.Size = new System.Drawing.Size(148, 26);
+      this.tafelzeit5_txt.TabIndex = 7;
+      // 
+      // tafelzeit4_txt
+      // 
+      this.tafelzeit4_txt.Location = new System.Drawing.Point(8, 132);
+      this.tafelzeit4_txt.Name = "tafelzeit4_txt";
+      this.tafelzeit4_txt.Size = new System.Drawing.Size(148, 26);
+      this.tafelzeit4_txt.TabIndex = 7;
+      // 
+      // tafelzeit3_txt
+      // 
+      this.tafelzeit3_txt.Location = new System.Drawing.Point(8, 100);
+      this.tafelzeit3_txt.Name = "tafelzeit3_txt";
+      this.tafelzeit3_txt.Size = new System.Drawing.Size(148, 26);
+      this.tafelzeit3_txt.TabIndex = 7;
+      // 
+      // tafelzeit2_txt
+      // 
+      this.tafelzeit2_txt.Location = new System.Drawing.Point(8, 68);
+      this.tafelzeit2_txt.Name = "tafelzeit2_txt";
+      this.tafelzeit2_txt.Size = new System.Drawing.Size(148, 26);
+      this.tafelzeit2_txt.TabIndex = 7;
       // 
       // Verbindungen
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(1882, 886);
+      this.BackColor = System.Drawing.Color.PaleTurquoise;
+      this.ClientSize = new System.Drawing.Size(1309, 664);
+      this.Controls.Add(this.groupBox1);
       this.Controls.Add(this.dauer_grp);
       this.Controls.Add(this.ankuft_grp);
       this.Controls.Add(this.zeit_grp);
       this.Controls.Add(this.abfahrt_grp);
-      this.Controls.Add(this.tafel_lbl);
-      this.Controls.Add(this.tafelzeit_lbl);
-      this.Controls.Add(this.tafelzeit_grp);
       this.Controls.Add(this.tafel_grp);
       this.Controls.Add(this.gleis_grp);
       this.Margin = new System.Windows.Forms.Padding(2);
@@ -532,8 +600,6 @@
       this.gleis_grp.PerformLayout();
       this.tafel_grp.ResumeLayout(false);
       this.tafel_grp.PerformLayout();
-      this.tafelzeit_grp.ResumeLayout(false);
-      this.tafelzeit_grp.PerformLayout();
       this.abfahrt_grp.ResumeLayout(false);
       this.abfahrt_grp.PerformLayout();
       this.zeit_grp.ResumeLayout(false);
@@ -542,8 +608,9 @@
       this.ankuft_grp.PerformLayout();
       this.dauer_grp.ResumeLayout(false);
       this.dauer_grp.PerformLayout();
+      this.groupBox1.ResumeLayout(false);
+      this.groupBox1.PerformLayout();
       this.ResumeLayout(false);
-      this.PerformLayout();
 
     }
 
@@ -554,16 +621,8 @@
     private System.Windows.Forms.TextBox gleis3_txt;
     private System.Windows.Forms.TextBox gleis1_txt;
     private System.Windows.Forms.TextBox tafel1_txt;
-    private System.Windows.Forms.TextBox tafel2_txt;
+    private System.Windows.Forms.TextBox tafelzeit1_txt;
     private System.Windows.Forms.GroupBox tafel_grp;
-    private System.Windows.Forms.GroupBox tafelzeit_grp;
-    private System.Windows.Forms.TextBox textBox7;
-    private System.Windows.Forms.TextBox textBox6;
-    private System.Windows.Forms.TextBox textBox5;
-    private System.Windows.Forms.TextBox textBox4;
-    private System.Windows.Forms.TextBox textBox3;
-    private System.Windows.Forms.TextBox textBox2;
-    private System.Windows.Forms.TextBox textBox1;
     private System.Windows.Forms.Label tafelzeit_lbl;
     private System.Windows.Forms.Label tafel_lbl;
     private System.Windows.Forms.Label gleis_lbl;
@@ -572,24 +631,39 @@
     private System.Windows.Forms.Label ankuft_lbl;
     private System.Windows.Forms.Label zeit_lbl;
     private System.Windows.Forms.GroupBox abfahrt_grp;
-    private System.Windows.Forms.TextBox textBox8;
-    private System.Windows.Forms.TextBox textBox9;
-    private System.Windows.Forms.TextBox textBox10;
-    private System.Windows.Forms.TextBox textBox11;
+    private System.Windows.Forms.TextBox station2_txt;
+    private System.Windows.Forms.TextBox station4_txt;
+    private System.Windows.Forms.TextBox station3_txt;
+    private System.Windows.Forms.TextBox station1_txt;
     private System.Windows.Forms.GroupBox zeit_grp;
-    private System.Windows.Forms.TextBox textBox12;
-    private System.Windows.Forms.TextBox textBox13;
-    private System.Windows.Forms.TextBox textBox14;
-    private System.Windows.Forms.TextBox textBox15;
+    private System.Windows.Forms.TextBox zeit2_txt;
+    private System.Windows.Forms.TextBox zeit4_txt;
+    private System.Windows.Forms.TextBox zeit3_txt;
+    private System.Windows.Forms.TextBox zeit1_txt;
     private System.Windows.Forms.GroupBox ankuft_grp;
-    private System.Windows.Forms.TextBox textBox16;
-    private System.Windows.Forms.TextBox textBox17;
-    private System.Windows.Forms.TextBox textBox18;
-    private System.Windows.Forms.TextBox textBox19;
+    private System.Windows.Forms.TextBox ankuft2_txt;
+    private System.Windows.Forms.TextBox ankuft4_txt;
+    private System.Windows.Forms.TextBox ankuft3_txt;
+    private System.Windows.Forms.TextBox ankuft1_txt;
     private System.Windows.Forms.GroupBox dauer_grp;
-    private System.Windows.Forms.TextBox textBox20;
-    private System.Windows.Forms.TextBox textBox21;
-    private System.Windows.Forms.TextBox textBox22;
-    private System.Windows.Forms.TextBox textBox23;
+    private System.Windows.Forms.TextBox dauer2_txt;
+    private System.Windows.Forms.TextBox dauer4_txt;
+    private System.Windows.Forms.TextBox dauer3_txt;
+    private System.Windows.Forms.TextBox dauer1_txt;
+    private System.Windows.Forms.TextBox tafel8_txt;
+    private System.Windows.Forms.TextBox tafel7_txt;
+    private System.Windows.Forms.TextBox tafel6_txt;
+    private System.Windows.Forms.TextBox tafel5_txt;
+    private System.Windows.Forms.TextBox tafel4_txt;
+    private System.Windows.Forms.TextBox tafel3_txt;
+    private System.Windows.Forms.TextBox tafel2_txt;
+    private System.Windows.Forms.GroupBox groupBox1;
+    private System.Windows.Forms.TextBox tafelzeit8_txt;
+    private System.Windows.Forms.TextBox tafelzeit7_txt;
+    private System.Windows.Forms.TextBox tafelzeit6_txt;
+    private System.Windows.Forms.TextBox tafelzeit5_txt;
+    private System.Windows.Forms.TextBox tafelzeit4_txt;
+    private System.Windows.Forms.TextBox tafelzeit3_txt;
+    private System.Windows.Forms.TextBox tafelzeit2_txt;
   }
 }
