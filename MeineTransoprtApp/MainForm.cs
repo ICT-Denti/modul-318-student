@@ -35,17 +35,22 @@ namespace MeineTransoprtApp
     {
       // Zuerst Text von txt Start in eine variable speichern
       string Start = Start_txt.Text;
+
       // Zweitens Text von txt End in eine variable speichern
       string End = End_txt.Text;
+
       // Transpoort klassse instanzieren in ITransport
       ITransport t = new Transport();
+
       // Getconation aufrufen von der ITransport Klasse und in eine variable speichern
       Connections a = t.GetConnections(Start, End);
-      // Nun die Variable dem neuen Fenster Verbindungen mitschicken
+      StationBoardRoot b = t.GetStationBoard(Start, "");
+
+      // Nun werden den Variable dem neuen Fenster Verbindungen mitschicken
       Verbindungen v = new Verbindungen();
       v.Gesucht = a;
+      v.Lulu = b;
       v.ShowDialog();
-
     }
 
     // Variabeln
