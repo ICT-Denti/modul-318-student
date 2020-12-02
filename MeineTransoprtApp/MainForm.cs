@@ -28,11 +28,11 @@ namespace MeineTransoprtApp
     // Schritt 2
     /* Start und Endstation werden abgeglichen und 
        es werden auf dem nexten Fenster die Verbindungen dazu gezeigt. */
-
     private void Suchen_btn_Click(object sender, EventArgs e)
     {
       // Variabeln
       // Zuerst Text von txt Start in eine variable speichern
+
       string Start = Start_txt.Text;
 
       // Zweitens Text von txt End in eine variable speichern
@@ -41,10 +41,10 @@ namespace MeineTransoprtApp
       // Transpoort klassse instanzieren in ITransport
       ITransport t = new Transport();
 
+ 
       // Getconation aufrufen von der ITransport Klasse und in eine variable speichern
       Connections c = t.GetConnections(Start, End);
       StationBoardRoot s = t.GetStationBoard(Start, "");
-
       // Nun werden den Variable dem neuen Fenster Verbindungen mitschicken
       Verbindungen v = new Verbindungen();
       v.Gesucht = c;
